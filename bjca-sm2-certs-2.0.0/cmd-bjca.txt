@@ -1,0 +1,119 @@
+
+# clean docker containers
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+
+# clean docker volumes
+docker volume rm $(docker volume ls -q)
+
+# clean channel-artifacts
+rm channel-artifacts/*
+
+# set env
+export FABRIC_CFG_PATH=$PWD
+export CHANNEL_NAME=mychannel
+
+# generate genesis block (etcdraft)
+../bin/configtxgen -profile SampleMultiNodeEtcdRaft -channelID byfn-sys-channel -outputBlock ./channel-artifacts/genesis.block
+
+# generate channel configuration transaction
+../bin/configtxgen -profile TwoOrgsChannel -outputCreateChannelTx ./channel-artifacts/channel.tx -channelID $CHANNEL_NAME
+
+# generate anchor peer configuration transaction
+../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org1MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org1MSP
+../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org2MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org2MSP
+
+# launch container (etcdraft)
+docker-compose -f docker-compose-cli.yaml -f docker-compose-etcdraft2.yaml up -d
+
+# enter the CLI container
+docker exec -it cli bash
+
+# set env
+export CHANNEL_NAME=mychannel
+export ORDERER_CA=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/orderer1.org0/tls/ica.pem
+
+
+# create channel
+peer channel create -o orderer1.org0.bjca.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/channel.tx --tls --cafile $ORDERER_CA
+
+# peer0.org1 join channel
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/admin.org1/msp
+CORE_PEER_ADDRESS=peer0.org1.bjca.com:7051
+CORE_PEER_LOCALMSPID="Org1MSP"
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org1/tls/ica.pem
+peer channel join -b mychannel.block
+
+# peer0.org2 join channel 
+CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/admin.org2/msp
+CORE_PEER_ADDRESS=peer0.org2.bjca.com:9051
+CORE_PEER_LOCALMSPID="Org2MSP"
+CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org2/tls/ica.pem
+peer channel join -b mychannel.block
+
+# update anchor peer of org1
+# env for peer0.org1
+peer channel update -o orderer1.org0.bjca.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org1MSPanchors.tx --tls --cafile $ORDERER_CA
+
+# update anchor peer of org2
+# env for peer0.org2
+peer channel update -o orderer1.org0.bjca.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/Org2MSPanchors.tx --tls --cafile $ORDERER_CA
+
+# vendoring go denpendencies
+cd /opt/gopath/src/github.com/hyperledger/fabric-samples/chaincode/abstore/go
+GO111MODULE=on go mod vendor
+cd -
+
+# package chaincode
+peer lifecycle chaincode package mycc.tar.gz --path github.com/hyperledger/fabric-samples/chaincode/abstore/go/ --lang golang --label mycc_1
+
+# install chaincode in peer0.org1
+# env for peer0.org1
+peer lifecycle chaincode install mycc.tar.gz
+
+# install chaincode in peer0.org2
+# env for peer0.org2
+peer lifecycle chaincode install mycc.tar.gz
+
+# set evn for chaincode package id
+CC_PACKAGE_ID=mycc_1:edabb6e44241ea17f4c699df8f9ac55fc216360a581c52041291df2f00a438f9
+
+# approval for org1
+# env for org1
+peer lifecycle chaincode approveformyorg --channelID $CHANNEL_NAME --name mycc --version 1.0 --init-required --package-id $CC_PACKAGE_ID --sequence 1 \
+--tls --cafile $ORDERER_CA
+
+# approval for org2
+# env for org2
+peer lifecycle chaincode approveformyorg --channelID $CHANNEL_NAME --name mycc --version 1.0 --init-required --package-id $CC_PACKAGE_ID --sequence 1 \
+--tls --cafile $ORDERER_CA
+
+# check approvals
+peer lifecycle chaincode checkcommitreadiness --channelID $CHANNEL_NAME --name mycc --version 1.0 --init-required --sequence 1 \
+--tls --cafile $ORDERER_CA --output json
+
+# commit chaincode to channel
+ORDERERURL=orderer2.org0.bjca.com:8050
+peer lifecycle chaincode commit -o $ORDERERURL --channelID $CHANNEL_NAME --name mycc --version 1.0 --sequence 1 --init-required \
+--tls --cafile $ORDERER_CA \
+--peerAddresses peer0.org1.bjca.com:7051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org1/tls/ica.pem \
+--peerAddresses peer0.org2.bjca.com:9051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org2/tls/ica.pem
+
+# init the chaincode
+peer chaincode invoke -o $ORDERERURL --isInit \
+--tls --cafile $ORDERER_CA -C $CHANNEL_NAME -n mycc \
+--peerAddresses peer0.org1.bjca.com:7051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org1/tls/ica.pem \
+--peerAddresses peer0.org2.bjca.com:9051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org2/tls/ica.pem \
+-c '{"Args":["Init","a","100","b","100"]}' --waitForEvent
+
+# query chaincode
+peer chaincode query -C $CHANNEL_NAME -n mycc -c '{"Args":["query","a"]}'
+
+# invoke chaincode
+peer chaincode invoke -o $ORDERERURL \
+--tls --cafile $ORDERER_CA \
+-C $CHANNEL_NAME -n mycc \
+--peerAddresses peer0.org1.bjca.com:7051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org1/tls/ica.pem \
+--peerAddresses peer0.org2.bjca.com:9051 --tlsRootCertFiles /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer0.org2/tls/ica.pem \
+-c '{"Args":["invoke","a","b","10"]}' --waitForEvent
+

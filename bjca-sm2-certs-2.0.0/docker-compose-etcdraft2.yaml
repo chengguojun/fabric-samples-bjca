@@ -1,0 +1,49 @@
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+version: '2'
+
+volumes:
+  orderer2.org0.bjca.com:
+  orderer3.org0.bjca.com:
+
+networks:
+  byfn:
+
+services:
+
+  orderer2.org0.bjca.com:
+    extends:
+      file: base/peer-base.yaml
+      service: orderer-base
+    environment:
+      - ORDERER_GENERAL_LISTENPORT=8050
+    container_name: orderer2.org0.bjca.com
+    networks:
+      - byfn
+    volumes:
+      - ./channel-artifacts/genesis.block:/var/hyperledger/orderer/orderer.genesis.block
+      - ./crypto-config-simple/orderer2.org0/msp:/var/hyperledger/orderer/msp
+      - ./crypto-config-simple/orderer2.org0/tls:/var/hyperledger/orderer/tls
+      - orderer2.org0.bjca.com:/var/hyperledger/production/orderer
+    ports:
+      - 8050:8050
+
+  orderer3.org0.bjca.com:
+    extends:
+      file: base/peer-base.yaml
+      service: orderer-base
+    environment:
+      - ORDERER_GENERAL_LISTENPORT=9050
+    container_name: orderer3.org0.bjca.com
+    networks:
+      - byfn
+    volumes:
+      - ./channel-artifacts/genesis.block:/var/hyperledger/orderer/orderer.genesis.block
+      - ./crypto-config-simple/orderer3.org0/msp:/var/hyperledger/orderer/msp
+      - ./crypto-config-simple/orderer3.org0/tls:/var/hyperledger/orderer/tls
+      - orderer3.org0.bjca.com:/var/hyperledger/production/orderer
+    ports:
+      - 9050:9050
