@@ -9,6 +9,7 @@ intend to use to ensure alignment.
 
 ## Build Binaries and Docker Images
 
+
 ```bash
 $ cd $GOPATH/src/github.com/hyperledger
 $ git clone https://github.com/hjun007/fabric-2.0.0-dsvs.git
@@ -20,9 +21,9 @@ $ make docker
 
 ## How to Use
 ```bash
-git clone https://github.com/hjun007/fabric-samples-dsvs.git
-cd fabric-samples-dsvs && mkdir bin
-cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/* bin/
-cd bjca-sm2-dsvs-2.0.0
+$ git clone https://github.com/hjun007/fabric-samples-dsvs.git
+$ cd fabric-samples-dsvs && mkdir bin
+$ cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/* bin/
+$ cd bjca-sm2-dsvs-2.0.0
 然后一条一条执行cmd.txt里面的命令
 ```
