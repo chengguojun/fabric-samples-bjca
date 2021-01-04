@@ -20,12 +20,23 @@ cd bjca-sm2-certs-2.0.0
 然后按流程执行cmd-bjca.txt里面的命令
 ```
 
-## How to use bjca-sm2-dsvs-2.0.0
+## How to use bjca-sm2-dsvs-2.0.0-raft
 ```bash
 $ git clone https://github.com/hjun007/fabric-samples-bjca.git
 $ cd fabric-samples-bjca && mkdir bin
 # build fabric refers to https://github.com/hjun007/fabric-gm-2.0.0-dsvs
 $ cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/* bin/
-$ cd bjca-sm2-dsvs-2.0.0
+$ cd bjca-sm2-dsvs-2.0.0-raft
 然后按流程执行cmd.txt里面的命令
+```
+
+## How to use bjca-sm2-dsvs-2.0.0-solo
+```bash
+$ git clone https://github.com/hjun007/fabric-samples-bjca.git
+$ cd fabric-samples-bjca && mkdir bin
+# build fabric refers to https://github.com/hjun007/fabric-gm-2.0.0-dsvs
+$ cp $GOPATH/src/github.com/hyperledger/fabric/release/linux-amd64/* bin/
+$ cd bjca-sm2-dsvs-2.0.0-solo
+$ ./network.sh up
+$ ./network.sh down
 ```
