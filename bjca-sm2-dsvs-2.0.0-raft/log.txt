@@ -1,0 +1,25 @@
+DSVS_CONFIG_FILE=/usr/dsvs/admin1.org1/BJCA_SVS_Config.ini
+GetServerCert.go: /usr/dsvs/admin1.org1/BJCA_SVS_Config.ini
+DSVS_LIB_FILE=/usr/dsvs/libsvscc.so
+[Mon Jan 04 01:15:10 2021] [warn] status(0), scpb_init__context: 'S-C-P-B' started !!!
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] ServerHost = tcp://60.247.77.101:8000/ disablereuse=on
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] ServerTimeout = 5
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] LogLevel = info
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] LogFile = /usr/dsvs/admin1.org1/svscc.log
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] SVSApplicationName = Admin1Org1
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(811): status(0), [config] Encoding = UTF-8
+[Mon Jan 04 01:15:10 2021] [debug] scpb_init.c(817): status(0), scpb_config_file: parse config file(/usr/dsvs/admin1.org1/BJCA_SVS_Config.ini) ok
+[Mon Jan 04 01:15:10 2021] [debug] scpb_balancer.c(1989): status(0), balancer: initialized plain memory in child 310 for worker tcp://60.247.77.101:8000/
+[Mon Jan 04 01:15:10 2021] [debug] scpb_balancer.c(2080): status(0), balancer: initialized worker 1 in child 310 for (60.247.77.101) min=0 max=20000 smax=20000
+>>>>signed by dsvs server<<<<<
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] ServerHost = tcp://60.247.77.101:8000/ disablereuse=on
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] ServerTimeout = 5
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] LogLevel = info
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] LogFile = /usr/dsvs/admin1.org1/svscc.log
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] SVSApplicationName = Admin1Org1
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(811): status(0), [config] Encoding = UTF-8
+[Mon Jan 04 01:15:11 2021] [debug] scpb_init.c(817): status(0), scpb_config_file: parse config file(/usr/dsvs/admin1.org1/BJCA_SVS_Config.ini) ok
+[Mon Jan 04 01:15:11 2021] [debug] scpb_balancer.c(1989): status(0), balancer: initialized plain memory in child 310 for worker tcp://60.247.77.101:8000/
+[Mon Jan 04 01:15:11 2021] [debug] scpb_balancer.c(2080): status(0), balancer: initialized worker 3 in child 310 for (60.247.77.101) min=0 max=20000 smax=20000
+Installed chaincodes on peer:
+Package ID: mycc_1.0:cf93d9e54a085e600f530ff24a8c8e1752e2a03b1da450f6498aa86a9e0e423a, Label: mycc_1.0

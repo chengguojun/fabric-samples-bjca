@@ -1,0 +1,331 @@
+[Wed Nov 25 02:52:50 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Wed Nov 25 02:52:50 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Wed Nov 25 03:02:15 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Wed Nov 25 03:02:15 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Wed Nov 25 03:31:07 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Wed Nov 25 03:31:07 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Wed Nov 25 08:43:04 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Wed Nov 25 08:43:04 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Wed Nov 25 10:14:34 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Wed Nov 25 10:14:34 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Sun Nov 29 13:04:12 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Sun Nov 29 13:04:12 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Sun Nov 29 13:06:08 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Sun Nov 29 13:06:08 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Dec 07 07:19:00 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Dec 07 07:19:00 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Thu Dec 10 07:30:50 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Thu Dec 10 07:30:50 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 03:25:47 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Tue Dec 15 03:25:47 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ˆ$Ÿ5‹h>#QP9
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: .øÙ‰ ±Ìƒ˜L²©»Ou
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 03:35:12 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 
+ÇŠUì'bó¬Ş™
+[Tue Dec 15 06:38:26 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 06:38:26 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 06:38:26 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: JEŞõ/@“Lg—ò¸èÏE
+[Tue Dec 15 06:38:27 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 06:38:27 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 06:38:27 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: º¹ˆšiéúüúÓ9	á`‡¤
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: Ü.E‚QôŠ™™KDXe
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 06:39:14 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ëŒÍL%¾skì;h!
+[Tue Dec 15 07:08:24 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 07:08:24 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 07:08:24 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ‘ò˜>8du×mhQlÆšu
+[Tue Dec 15 07:09:27 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 07:09:27 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 07:09:27 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: §Û®Ã  .Šßt¨6©
+[Tue Dec 15 07:15:41 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 07:15:41 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 07:15:41 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: x¯Eæ»İ#¦¿áÌoŠw[
+[Tue Dec 15 07:17:13 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 07:17:13 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 07:17:13 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: &’wyCN×ÄMØĞ0ä
+[Tue Dec 15 07:20:56 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 07:20:56 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 07:20:56 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ı’ã~^€cÛÏ®—@`;
+[Tue Dec 15 09:26:00 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Tue Dec 15 09:26:00 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ãÀÁ¢B¥Fã^†µ–k
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ¤?bí«~vƒ=©pPoğ
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:26:24 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ó’üdPÇµ‡J/˜N<k
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ¤ÿGC–¾£¾û”Û6
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:27:06 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: â¼íYÍèô*?w¾°
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: u(Aš†Œ¼ÏÄ]ù‘”[
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:27:14 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: HHbb–Fñyê@c)Q
+[Tue Dec 15 09:28:56 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:28:56 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:28:56 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ¥OâçUû»)Yl
+[Tue Dec 15 09:29:05 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:29:05 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:29:05 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: °(—İŠ/¶=­j%
+[Tue Dec 15 09:29:23 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:29:23 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:29:23 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: dn3gà¬.®{á'„kÍ¢
+[Tue Dec 15 09:29:37 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:29:37 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:29:37 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ¤„sÚ"Xè502†c¿
+[Tue Dec 15 09:30:19 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 09:30:19 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 09:30:19 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: p˜º—³CÒ‡6¢ô€ŠDù
+[Tue Dec 15 12:19:45 2020] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Tue Dec 15 12:19:45 2020] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: TuÑ%­ÜÙä¬Öæa:
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: òÓN\»y'Šf4»
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:19:58 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ä[–q-‰¾É1BFvğ
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: <ódqé/}vv}Ó@D„Ì
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:20:34 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ï…A†Ï¬íŞùœNıÃ9î
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: .-®}Ç6ñ¼Ç'=áû—¸Ã
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:20:40 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: Øƒõ)QåÁx´S²YNã
+[Tue Dec 15 12:22:44 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:22:44 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:22:44 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: “"áauPüCo#“#ã¸q
+[Tue Dec 15 12:22:56 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:22:56 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:22:56 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: >œ¨·~ié5#)Â(àq
+[Tue Dec 15 12:23:11 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:23:11 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:23:11 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: }‚\ê õ›ÛŒuZ¨
+[Tue Dec 15 12:23:20 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:23:20 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:23:20 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: =Ã®k
+wˆ	n—"æ°
+[Tue Dec 15 12:23:38 2020] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Tue Dec 15 12:23:38 2020] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Tue Dec 15 12:23:38 2020] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: w²H.«’Gw‚‚÷Ó%w
+[Mon Jan 04 01:11:28 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 01:11:28 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: .k÷- lÔÃ'‚v˜e+…
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:11:56 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ÿ6šä—U-m³TäÚ>88	
+[Mon Jan 04 01:11:57 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:11:57 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:11:57 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ¤ŸO1p ÷l†÷|N‡-P
+[Mon Jan 04 01:13:06 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:13:06 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:13:06 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: åıÌK{½©{Sé_¿›f®É
+[Mon Jan 04 01:13:07 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:13:07 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:13:07 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: œÖúÌÚ‚~hı_¦dàç
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ã? *)Wl¼g_ÕÁ
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:13:20 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: SÍ 5DK¯ğÄÚ7ÁEp
+[Mon Jan 04 01:15:47 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:15:47 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:15:47 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: öL?¡Onß?ÀËWˆâÍO
+[Mon Jan 04 01:15:56 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:15:56 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:15:56 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ™øã¬TOXeÆøT
+[Mon Jan 04 01:16:18 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:16:18 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:16:18 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ´Õæ‹ª`ír€…÷Ym”
+[Mon Jan 04 01:17:13 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:17:13 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:17:13 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ùs†s	¶Í°lçÁ2•,
+[Mon Jan 04 01:17:45 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:17:45 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:17:45 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: q+½Cmñ~vµP–ŠÉ¬
+[Mon Jan 04 01:35:15 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 01:35:15 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ÷0İ&ÜBºO°Ä… M
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: D	¤·-ìFZÕ÷ø…Ï´å
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:36:32 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: _Áì½Cu
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: "=AÇdòŸ®Öİ9kE
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:37:43 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: á• 64Ûc˜¯."c‹–D
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: êá™«=N%ÁÖU­
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:37:53 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: Ûù—óë¨–`ıEkzNõ
+[Mon Jan 04 01:39:27 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:39:27 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:39:27 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: )Ô¤0ÌŸ7-FfÈÀR—
+[Mon Jan 04 01:39:43 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:39:43 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:39:43 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ‚ß÷İ¿ZCiÿCâı¦›|`
+[Mon Jan 04 01:40:14 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:40:14 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:40:14 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ÷”’ƒhSRßí>
+
+[Mon Jan 04 01:40:47 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:40:47 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:40:47 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: †BX —ò*8f²ÖÁ¼
+[Mon Jan 04 01:41:21 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:41:21 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:41:21 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ŠĞ(ŞòRIÀÊ}%%R
+[Mon Jan 04 01:58:39 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 01:58:39 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: zÒÿÔF‡LMM§[-
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: AØV¡›r#ÎÎŸÄ3Ô
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:41 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: úşyºìxgdÑ/êü±
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: `¾y¡[Á3Óaq
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:45 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: …ÇÏ$ Ğ(HFé[÷µCã
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: QW]6s¶Ì
+ÆÀ|×‘X
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:58:46 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: _…#HŠ‡¯²¬"S”
+[Mon Jan 04 01:59:20 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:20 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:20 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: äÌ%Ÿoz‰ñŸ’Où Q®É
+[Mon Jan 04 01:59:22 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:22 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:22 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ıëXb¬à-”°
+˜
+[Mon Jan 04 01:59:26 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:26 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:26 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: •nÆƒ¨§ïÌN±œD¾Ü…
+[Mon Jan 04 01:59:29 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:29 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:29 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: }‘u<´Yf¹g_ôl
+[Mon Jan 04 01:59:32 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:32 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:32 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: CTf@¥ŸKÑ†VoÂvY.
+[Mon Jan 04 01:59:56 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 01:59:56 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 5bLuŠ/÷´™ºª
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: oàğ¿¬Uƒçv6‹"Áãg½
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 01:59:58 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: wü&®=+½¨+|Š›
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ƒã¿çÌZcáÀ%"»E
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: î|w¶·[Aù¯“MÙQW
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 9Â4Ş36ä¤Ş|ö}{O
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:01 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: —?)ï¬„
+Èê¡µå¥
+[Mon Jan 04 02:00:37 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:37 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:37 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 
+[Mon Jan 04 02:00:42 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:42 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:42 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ‹©õ-I0Œ	QfHkb
+[Mon Jan 04 02:00:45 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:45 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:45 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ,:•ù³È=v%FI?
+[Mon Jan 04 02:00:50 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:50 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:50 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ×0¬F§qÌ¬£bb‰ÚO
+[Mon Jan 04 02:00:53 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:00:53 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:00:53 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ïè7³nğŸÑMÉ\jöè”
+[Mon Jan 04 02:01:25 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 02:01:25 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:49 2021] [info] status(0), [package info] version(2), cmd(9), status(0), argument(1)
+[Mon Jan 04 02:01:49 2021] [info] status(0), [package info] cmd(9), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 'tc}ÂebÛèd–_”¹•
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: B‰ã˜ëg##ÌÕH‚úO
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:52 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: b‡A2"oÛÖâ©>¤“
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: RÚ„IzImğ8¥Ï‚ÚÀ
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: 
+‘¹HHÕş&V˜‚a(
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: eLJlÔ›Æû‹Éì(Lô
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:01:54 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ©2˜£(	\†«t3„tØ
+[Mon Jan 04 02:02:28 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:02:28 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:02:28 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ›“S¡éU*‘’ætŸf­2
+[Mon Jan 04 02:02:31 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:02:31 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:02:31 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: í"RğBj·/›S.8Š¿
+[Mon Jan 04 02:02:34 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:02:34 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:02:34 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ½T:MDMª Ê®ÖAÓ
+[Mon Jan 04 02:02:38 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:02:38 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:02:38 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: Ùïè˜U¨ï÷ù-·€‘58Ï
+[Mon Jan 04 02:02:41 2021] [info] status(0), [package info] version(2), cmd(6001), status(0), argument(2)
+[Mon Jan 04 02:02:41 2021] [info] status(0), [package info] cmd(6001), arg#12, len:12, value: Orderer1Org0
+[Mon Jan 04 02:02:41 2021] [info] status(0), [package info] cmd(6001), arg#16, len:32, value: ÿĞp™	öû,ŸDzˆ
